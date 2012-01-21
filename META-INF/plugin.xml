@@ -1,0 +1,24 @@
+<idea-plugin version="2">
+  <name>Slick Jetty</name>
+  <description>Jetty 7 launcher with minimal options and configuration, allowing it to be quickly used.
+      Will eventually include a limited number of Tapestry-specific options (that will not affect non-Tapestry projects).</description>
+  <version>0.1</version>
+  <vendor>Howard M> Lewis Ship</vendor>
+  <idea-version since-build="8000"/>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+  <extensions defaultExtensionNs="com.howardlewisship">
+    <!-- Add your extensions here -->
+  </extensions>
+</idea-plugin>
