@@ -1,5 +1,6 @@
 <idea-plugin version="2">
   <name>Slick Jetty</name>
+  <id>SlickJetty</id>
   <description>Jetty 7 launcher with minimal options and configuration, allowing it to be quickly used.
       Will eventually include a limited number of Tapestry-specific options (that will not affect non-Tapestry projects).</description>
   <version>0.1</version>
