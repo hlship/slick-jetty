@@ -1,34 +1,18 @@
 package com.howardlewisship.sj;
 
-import com.intellij.execution.configurations.ConfigurationFactory;
-import com.intellij.execution.configurations.ConfigurationType;
-import org.jetbrains.annotations.NotNull;
-
-import javax.swing.*;
+import com.intellij.execution.configurations.ConfigurationTypeBase;
 
 /**
  * Hooks into the configurations menu.
  */
-public class JettyConfigurationType implements ConfigurationType {
+public class JettyConfigurationType extends ConfigurationTypeBase {
+
   // TODO: Localize Strings
-  public String getDisplayName() {
-    return "Slick Jetty Launch";
-  }
 
-  public String getConfigurationTypeDescription() {
-    return "Launches the web application directly from the workspace.";
-  }
-
-  public Icon getIcon() {
-    return null;
-  }
-
-  @NotNull
-  public String getId() {
-    return "SlickJetty.Configuration";
-  }
-
-  public ConfigurationFactory[] getConfigurationFactories() {
-    return new ConfigurationFactory[0];
+  public JettyConfigurationType() {
+    super("SlickJetty.Configuration",
+          "Slick Jetty Launch",
+          "Launches the web application directly from the workspace.",
+          null);
   }
 }
