@@ -4,7 +4,7 @@
   <description>Jetty 7 launcher with minimal options and configuration, allowing it to be quickly used.
       Will eventually include a limited number of Tapestry-specific options (that will not affect non-Tapestry projects).</description>
   <version>0.1</version>
-  <vendor>Howard M> Lewis Ship</vendor>
+  <vendor>Howard M. Lewis Ship</vendor>
   <idea-version since-build="8000"/>
 
   <application-components>
@@ -19,7 +19,7 @@
     <!-- Add your actions here -->
   </actions>
 
-  <extensions defaultExtensionNs="com.howardlewisship">
-    <!-- Add your extensions here -->
+  <extensions defaultExtensionNs="com.intellij">
+    <configurationType implementation="com.howardlewisship.sj.JettyConfigurationType"/>
   </extensions>
 </idea-plugin>
